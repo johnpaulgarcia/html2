@@ -71,10 +71,12 @@ main {
 .button-content {
   box-sizing: border-box;
   height: 25%;
+  min-height: 220px;
 }
 
 .image-content {
   box-sizing: border-box;
+  min-height: 600px;
   height: calc(75% - 40px);
 }
 
@@ -87,7 +89,18 @@ main {
   height: 75px;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  margin-left: 40px;
+}
+
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   background-color: #4a4a4a;
-  padding: 0 50px;
+  padding: 0 20%;
 }
