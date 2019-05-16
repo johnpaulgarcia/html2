@@ -1,0 +1,49 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    
+ 
+
+}
+
+.nav {
+
+    width: 50vw;
+    height: fill;
+    padding: 20px;
+    background: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: inherit;
+  
+    
+    margin: auto;
+}
+
+.content-1 {
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+}
+
+.content-2 {
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+}
+
+li {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
