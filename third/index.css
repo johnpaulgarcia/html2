@@ -11,11 +11,14 @@ body {
 
 }
 
+p {
+    margin: 10px 3px 0px 3px;
+}
+
 .nav {
 
     width: 50vw;
     height: fill;
-    padding: 20px;
     background: gray;
 }
 
@@ -24,26 +27,71 @@ body {
     flex-direction: column;
     width: 50vw;
     height: inherit;
-  
-    
     margin: auto;
+   
 }
 
-.content-1 {
+.content {
+
     display: flex;
+    width: inherit;
+    flex-direction: row;
     width: 25vw;
-    flex-direction: column;
+    margin: 50px 5px 20px 5px;
+    
+    
 }
 
-.content-2 {
+.left,.right {
+
     display: flex;
-    width: 25vw;
     flex-direction: column;
+    width: inherit;
+    height: fill;
+    background: #fff;
 }
 
-li {
 
+.nav-menu {
     display: flex;
     flex-direction: row;
-    list-style: none;
+    list-style: none;  
 }
+
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.input {
+    border-radius: 0; 
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.paragraph {
+
+    margin: 20px 5px 20px 5px;
+    font-size: 15px;
+    color: #222;
+    text-align: justify;
+}
+
+
+
+
+.img {
+
+   
+   
+    object-fit: fill;
+    width: 25vw;
+    height: 300px;
+    
+}
+
